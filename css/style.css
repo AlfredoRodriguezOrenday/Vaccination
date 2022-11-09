@@ -1,0 +1,63 @@
+body{
+    /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+}
+h1{
+    color: darkblue;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.pMayuscula{
+    font-size: 29px;
+}
+
+.separacion{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.largo{
+    color: mediumblue;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 400px;
+}
+.btnAzul{
+    background-color: mediumblue;
+    color: white;
+}
+.imagen{
+    width:659px;
+    height: 700px;
+}
+.letraSchedule{
+    margin-top: 100px;
+    color: blue;
+    font-weight: bold;
+}
+#Gimnasios-Contenedor {
+  padding: 20px 0;
+  position:relative;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  z-index: 50;
+  background-color: cyan;
+}
+
+
+#ModalContacto {
+  height: 300px;
+  width: 60%;
+  background-color: orangered;
+  margin: auto;
+  position: absolute;
+  top: 20%;
+  z-index: 100;
+  background: whitesmoke;
+}
