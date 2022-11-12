@@ -1,6 +1,7 @@
 body{
-    /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    font-family:inherit;
 }
+
 h1{
     color: darkblue;
     font-size: 80px;
@@ -15,6 +16,7 @@ h1{
     margin-left: 15px;
     margin-right: 15px;
 }
+
 .largo{
     color: mediumblue;
     font-weight: bold;
@@ -22,39 +24,84 @@ h1{
     margin-left: 50px;
     margin-right: 400px;
 }
+
 .btnAzul{
     background-color: mediumblue;
     color: white;
 }
+
 .imagen{
     width:659px;
-    height: 850px;
+    height: 870px;
 }
+
 .letraSchedule{
     margin-top: 100px;
-    color: blue;
+    color: darkblue;
     font-weight: bold;
 }
 
-
-#Delante {
-  
+#Delante { 
   background-color: transparent;
-  margin-left: 100px;
+  margin-left: 190px;
   position: absolute;
-  top: 20%;
+  top: 769px;
   z-index: 100;
   backdrop-filter: blur(100px);
+  height: 130px;
+  width: 702px;
 }
 
 #Atras{
     height: 130px;
     width: 140%;
-    background-color: rgba(255, 255, 255, 0.804);
+    background-color: rgba(255, 255, 255, 0.759);
     position: absolute;
     top: 20%;
     z-index: 100;
 }
 .iconos{
-    color: rgb(51,83,209);
+    color: rgb(49,81,207);
+    background-color: rgb(213, 219, 219);
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.DarkBlue{
+    color: rgb(31, 62, 114);
+}
+.InfoGris{
+    color: rgb(109, 123, 147);
+}
+.t-2{
+    font-size: 20px;
+}
+.t-25{
+    font-size: 25px;
+}
+.DBlue{
+    color: darkblue;
+}
+.logos{
+    filter: invert(86%) sepia(3%) saturate(25%) hue-rotate(1deg) brightness(96%) contrast(92%);
+}
+#AztraZeneca{
+    width: 250px;
+    height: 125px;
+}
+#Sinovac{
+    margin-top: 40px;
+    width: 250px;
+    height: 60px;
+}
+#Pfizer{
+    margin-top: 25px;
+    width: 225px;
+    height: 100px;
+}
+#Moderna{
+    margin-top: 30px;
+    width: 250px;
+    height: 100px;
 }
