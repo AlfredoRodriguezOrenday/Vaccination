@@ -112,7 +112,9 @@ h2{
 .DBlue{
     color: darkblue;
 }
-
+#Azul{
+    color: rgb(52, 84, 210);
+}
 .logos{
     filter: invert(86%) sepia(3%) saturate(25%) hue-rotate(1deg) brightness(96%) contrast(92%);
 }
