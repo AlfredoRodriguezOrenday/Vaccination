@@ -81,6 +81,14 @@ h2{
     font-size: 40px;
     text-align: center;
 }
+.iconosChicos{
+    background-color: rgb(213, 219, 219);
+    padding-top: 3px;
+    width: 15px;
+    height: 15px;
+    font-size: 8px;
+    text-align: center;
+}
 .DarkBlue{
     color: rgb(31, 62, 114);
 }
